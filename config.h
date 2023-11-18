@@ -70,7 +70,7 @@ static const struct arg args[] = {
         { ram_perc,             "[RAM %s%%] ",      NULL },
         { battery_perc,         "[BAT %s%%] ",       "BAT0" },
         { run_command,          "[VOL %s] ",        "amixer get Master | egrep -o '[0-9]{1,}%'" },
-        { wifi_essid,          "[WIFI %s ",        "wlp0s20f3" },
-        { wifi_perc,          "%s%] ",        "wlp0s20f3" },
+        { wifi_essid,          "[WIFI %s ",        "wlp3s0" },
+        { wifi_perc,          "%s%] ",        "wlp3s0" },
         { datetime,             "%s",         "%a %F %T" }, /* Date time with this format: Day name YYYY-MM-DD 18:00:00 */
 };
